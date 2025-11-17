@@ -1,0 +1,8 @@
+# This file is used to configure the Shorebird updater used by your application.
+# Learn more at https://shorebird.dev
+# This file should be checked into version control.
+
+# This is the unique identifier assigned to your app.
+# It is used by your app to request the correct patches from Shorebird servers.
+app_id: e17597d4-c39f-41a1-acf3-90dcd1abcb81
+auto_update: true
