@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="leave_created_title">Leave Created</string>
+    <string name="leave_created_body">%s created a leave for you from %s to %s</string>
+    <string name="leave_owner_created_body">You have created a leave for %s from %s to %s</string>
+    <string name="vehicle_inspection_title">Vehicle Inspection</string>
+    <string name="vehicle_inspection_body">Please perform a vehicle inspection for vehicle %s</string>
+    <string name="deduction_title">Deduction Received</string>
+    <string name="deduction_body">You have recieved a Deduction</string>+
+    <string name="penalty_title">Penalty Received</string>
+    <string name="penalty_body">You have recieved a Penalty</string>
+    <string name="advance_title">Advance Received</string>
+    <string name="advance_body">You have recieved an Advance from %s</string>
+    <string name="advance_status_updated_title">Advance Updated</string>
+    <string name="advance_status_updated_body">Your advance request has been %s</string>
+    <string name="bonus_title">Bonus Approved</string>
+    <string name="bonus_body">You have recieved a Bonus</string>
+    <string name="task_created_title">Task Created</string>
+    <string name="task_created_body">%s created a task for you to %s</string>
+    <string name="task_status_updated_title">Task Status Updated</string>
+    <string name="task_status_updated_body">%s updated the status of the task to %s</string>
+    <string name="task_updated_title">Task Updated</string>
+    <string name="task_updated_body">%s updated the task to %s</string>
+    <string name="leave_updated_title"> Leave Updated</string>
+    <string name="leave_owner_updated_body">You have updated your leave from %s to %s</string>
+    <string name="leave_updated_body">%s updated the leave for you from %s to %s</string>
+    <string name="leave_status_updated_title">Leave Status Updated</string>
+    <string name="leave_status_updated_body">Updated the status of the leave to %s</string>
+    <string name="new_message">New Message</string>
+    <string name="new_message_body">You have received a new message from %s</string>
+</resources>
