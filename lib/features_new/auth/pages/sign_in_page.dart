@@ -4,10 +4,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:taxiapp_mobile/core/services/image_helpers.dart';
 import 'package:taxiapp_mobile/shared/providers/common_providers.dart';
+import 'package:taxiapp_mobile/shared/theme/app_theme.dart';
 
 import '../../../../translations/locale_keys.g.dart';
 import '../../../shared/helpers/app_assets.dart';
-import '../../../shared/theme/app_colors.dart';
 import '../../../shared/utils/validation.dart';
 import '../../../shared/widgets/button.dart';
 import '../../../shared/widgets/loader.dart';
@@ -53,7 +53,7 @@ class _SignInScreenState extends ConsumerState<SignInPage> {
             child: Column(
               children: [
                 Container(
-                  color: PRIMARY_COLOR,
+                  color: primaryColor,
                   width: double.infinity,
                   height: 255.h,
                 ),
@@ -72,7 +72,6 @@ class _SignInScreenState extends ConsumerState<SignInPage> {
                           style: TextStyle(
                             fontSize: 30.sp,
                             fontWeight: FontWeight.w700,
-                            color: PRIMARY_TEXT_COLOR,
                           ),
                         ),
                         const VerticalSpace(space: 12),
@@ -81,7 +80,7 @@ class _SignInScreenState extends ConsumerState<SignInPage> {
                           style: TextStyle(
                             fontSize: 14.sp,
                             fontWeight: FontWeight.w700,
-                            color: SECONDARY_TEXT_COLOR,
+                            color: Colors.grey,
                           ),
                         ),
                         const VerticalSpace(space: 30),
@@ -138,7 +137,7 @@ class _SignInScreenState extends ConsumerState<SignInPage> {
                               child: Text(
                                 LocaleKeys.forgot_password.tr(),
                                 style: TextStyle(
-                                  color: PRIMARY_COLOR,
+                                  color: primaryColor,
                                   fontSize: 14.sp,
                                   fontWeight: FontWeight.w700,
                                 ),
