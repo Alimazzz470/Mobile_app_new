@@ -216,16 +216,6 @@ final appRoutes = <RouteBase>[
           },
         ),
       ]),
-  GoRoute(
-    parentNavigatorKey: rootNavigatorKey,
-    path: Routes.imageSlider,
-    builder: (_, state) {
-      final imageDetails = state.extra as ImageSliderDto;
-      return ImageSlider(
-        listImagesModel: imageDetails,
-      );
-    },
-  ),
   StatefulShellRoute.indexedStack(
     builder: (_, __, shell) => BottomNavPage(navigationShell: shell),
     branches: <StatefulShellBranch>[
